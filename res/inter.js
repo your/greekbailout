@@ -10,7 +10,7 @@ function inter() {
   $.getJSON( "res/data.json", function( data ) {
     var items = [];
     $.each( data, function( key, val ) {
-      $( '#' + key ).fadeOut( "fast" ).delay( 1000 ).html( val ).fadeIn( "fast" );
+      $( '#' + key ).fadeOut( "fast" ).html( val ).fadeIn( "fast" );
       $( "#loading" ).removeClass( "fa-spin" );
     });
   });
