@@ -7,7 +7,7 @@
 */
 function inter() {
   $( "#loading" ).addClass( "fa-spin" );
-  $.getJSON( "data.json", function( data ) {
+  $.getJSON( "res/data.json", function( data ) {
     var items = [];
     $.each( data, function( key, val ) {
       $( '#' + key ).html( val );
