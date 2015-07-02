@@ -7,14 +7,14 @@
 */
 function inter() {
   $( "#loading" ).addClass( "fa-spin" );
-  $( "#speed" ).fadeOut( fast ).html( "(updating)" ).fadeIn( fast );
-  $( "#left" ).fadeOut( fast ).html( "(updating)" ).fadeIn( fast );
-  $( "#date" ).fadeOut( fast ).html( "(updating)" ).fadeIn( fast );
+  $( "#speed" ).fadeOut( "fast" ).html( "(updating)" ).fadeIn( "fast" );
+  $( "#left" ).fadeOut( "fast" ).html( "(updating)" ).fadeIn( "fast" );
+  $( "#date" ).fadeOut( "fast" ).html( "(updating)" ).fadeIn( "fast" );
 
   $.getJSON( "res/data.json", function( data ) {
     var items = [];
     $.each( data, function( key, val ) {
-      $( '#' + key ).fadeOut( fast ).delay( 1000 ).html( val ).fadeIn( fast );
+      $( '#' + key ).fadeOut( "fast" ).delay( 1000 ).html( val ).fadeIn( "fast" );
       $( "#loading" ).removeClass( "fa-spin" );
     });
   });
