@@ -1,5 +1,11 @@
 {
+<<<<<<< HEAD
   "speed": "88 EUR/h",
   "left": "756825 days",
   "date": "2015-07-03 02:49:04 UTC"
+=======
+  "speed": "0 EUR/h",
+  "left": "∞",
+  "date": "2015-07-03 02:45:57 UTC"
+>>>>>>> 718daf7d69ba8f4866a569c84aa4c9ed5f648cb2
 }
