@@ -59,7 +59,7 @@ ul {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     cursor: pointer;
-	padding: 30px 10px 10px 10px;
+	padding: 20px 10px 0px 10px;
     border: 0px solid #000;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -80,7 +80,7 @@ ul {
 
 @-moz-document url-prefix() {
 	.butt {
-			padding: 10px 10px 10px 10px;
+			padding: 0px 10px 0px 10px;
 		}
 }
 
