@@ -5,6 +5,9 @@
   "date":"07/02/2015 17:31 UTC"
 }
 */
+$( document ).ready(function() {
+	inter();
+});
 function inter() {
   $( "#loading" ).addClass( "fa-spin" );
   $.getJSON( "res/data.json", function( data ) {
