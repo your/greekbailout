@@ -6,6 +6,7 @@
 }
 */
 $( document ).ready(function() {
+	$.ajaxSetup({ cache: false });
 	inter();
 });
 function inter() {
