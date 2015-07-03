@@ -205,6 +205,8 @@ ul {
   margin: 0 auto;
   width: 280px;
   font-size: 25px;
+  margin-top: 80px;
+  padding: 10px 10px;
 }}
 
 @media only screen and (max-width: 360px) {
@@ -237,6 +239,8 @@ ul {
   margin: 0 auto;
   width: 300px;
   font-size: 25px;
+  margin-top: 80px;
+  padding: 10px 10px;
 }}
 .usermsg {
     text-align: center;
