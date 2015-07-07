@@ -1,4 +1,4 @@
-bail.rb
+*.rb
 res/data.txt
 push.sh
 log.txt
