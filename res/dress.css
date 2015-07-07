@@ -103,6 +103,17 @@ ul {
     opacity: 0.6;
     filter: alpha(opacity=60);
 }
+.notice {
+	text-align: center;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    background: lightblue;
+	height: 40px;
+    min-height: 40px;
+	line-height:45px;
+	font-size: 18px;
+
+}
 .data {
   text-align: left;
   font-size: 90px;
@@ -157,7 +168,7 @@ ul {
     margin-left:360px;
 }
 .title {
-  width: 450px;
+  width: 550px;
   text-align: right;
   margin-bottom:-50px;
 }
@@ -170,7 +181,7 @@ ul {
     margin-left:210px;
 }
 .title {
-  width: 300px;
+  width: 400px;
   text-align: right;
   margin-bottom:-50px;
   }
@@ -186,7 +197,7 @@ ul {
   margin-left:110px;
 }
 .title {
-  width: 200px;
+  width: 300px;
   text-align: right;
   margin-bottom:-50px;
 }
@@ -218,7 +229,7 @@ ul {
   line-height:25px;
 }
 .title {
-  width: 200px;
+  width: 300px;
   text-align: left;
   margin-bottom:-40px;
   margin-left:20px;
