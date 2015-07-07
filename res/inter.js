@@ -6,8 +6,11 @@
 }
 */
 $( document ).ready(function() {
+	$( "#notice" ).hide();
+	$( "#notice" ).show("slide", { direction: "up" }, "slow")
 	$.ajaxSetup({ cache: false });
 	inter();
+	
 });
 function inter() {
   $( "#loading" ).addClass( "fa-spin" );
