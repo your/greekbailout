@@ -290,7 +290,6 @@ ul {
 }
 
 .timeline {
-  width:480px;
   height:220px;
   position:  absolute;  
   margin: 10px 10px 0px 10px;
@@ -315,6 +314,6 @@ ul {
   stroke: #a8aff1;
 }
 .timeline_area.cyan {
-  fill: rgba(0, 168, 201, 0.7);
+  fill: rgba(0, 168, 201, 0.1);
   stroke: #62d6eb;
 }
