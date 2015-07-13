@@ -15,13 +15,11 @@ function inter() {
       $( '#' + key ).fadeOut( "fast" ).html( val ).fadeIn( "fast" );
       $( "#loading" ).removeClass( "fa-spin" );
     });
-  });
-  $.getJSON( "res/graph.json", function( data_g ) {
-	  $.each( data_g, function( key, val ) {
-	  console.log(data_g);
-	  graph( d3, data_g );
+	graph( d3, data );
   });
 }
+
+data = [{"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}];
 
 function graph( d3, data ) {
   function visualizeTimeline( selector, data ) {
