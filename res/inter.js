@@ -15,12 +15,12 @@ function inter() {
       $( '#' + key ).fadeOut( "fast" ).html( val ).fadeIn( "fast" );
       $( "#loading" ).removeClass( "fa-spin" );
     });
-	graph( d3, data );
+	graph( d3 );
   });
 }
 
 
-function graph( d3, data ) {
+function graph( d3 ) {
   function visualizeTimeline( selector, data ) {
     var d3container = d3.select( selector ),
         width       = d3container.attr( 'width' ),
