@@ -5,34 +5,6 @@ $( document ).ready(function() {
 	inter();
 });
 
-var data = [
-  {
-    date  : '13',
-    value : 515,
-    type  : 'wt'
-  },
-  {
-    date  : 'September 16',
-    value : 618,
-    type  : 'wt'
-  },
-  {
-    date  : 'September 17',
-    value : 498,
-    type  : 'wt'
-  },
-  {
-    date  : 'September 18',
-    value : 1243,
-    type  : 'wt'
-  },
-  {
-    date  : 'September 19',
-    value : 1032,
-    type  : 'wt'
-  }
-];
-
 function inter() {
   $( "#loading" ).addClass( "fa-spin" );
   $.getJSON( "res/data.json", function( data ) {
@@ -42,12 +14,13 @@ function inter() {
       $( "#loading" ).removeClass( "fa-spin" );
     });
   });
-}
+  $.getJSON( "res/graph.json", function( data ) {
+	  console.log(data);
+	  graph( d3, data );
+  });
+};
 
-
-
-
-;( function( d3 ) {
+function graph( d3, data ) {
   function visualizeTimeline( selector, data ) {
     var d3container = d3.select( selector ),
         width       = d3container.attr( 'width' ),
@@ -153,7 +126,7 @@ function inter() {
     }
   }
   visualizeTimeline( '.timeline', data );
-} )( d3 );
+}
 
 
 
