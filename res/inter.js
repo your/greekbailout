@@ -16,6 +16,33 @@ function inter() {
   });
   $.getJSON( "res/graph.json", function( data ) {
 	  console.log(data);
+	  var data = [
+	    {
+	      date  : '13',
+	      value : 515,
+	      type  : 'wt'
+	    },
+	    {
+	      date  : 'September 16',
+	      value : 618,
+	      type  : 'wt'
+	    },
+	    {
+	      date  : 'September 17',
+	      value : 498,
+	      type  : 'wt'
+	    },
+	    {
+	      date  : 'September 18',
+	      value : 1243,
+	      type  : 'wt'
+	    },
+	    {
+	      date  : 'September 19',
+	      value : 1033,
+	      type  : 'wt'
+	    }
+	  ];
 	  graph( d3, data );
   });
 };
