@@ -1,42 +1,27 @@
 [
   {
-    "date": "{",
-    "value": 0,
+    "date": "2015-07-09",
+    "value": 13824,
     "type": "wt"
   },
   {
-    "date": "\"speed\":",
-    "value": 0,
+    "date": "2015-07-10",
+    "value": 10656,
     "type": "wt"
   },
   {
-    "date": "\"left\":",
-    "value": 0,
+    "date": "2015-07-11",
+    "value": 7152,
     "type": "wt"
   },
   {
-    "date": "\"date\":",
-    "value": 0,
+    "date": "2015-07-12",
+    "value": 48048,
     "type": "wt"
   },
   {
-    "date": "{",
-    "value": 0,
-    "type": "wt"
-  },
-  {
-    "date": "\"speed\":",
-    "value": 0,
-    "type": "wt"
-  },
-  {
-    "date": "\"left\":",
-    "value": 0,
-    "type": "wt"
-  },
-  {
-    "date": "\"date\":",
-    "value": 0,
+    "date": "2015-07-13",
+    "value": 52560,
     "type": "wt"
   }
 ]
