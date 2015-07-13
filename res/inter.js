@@ -17,7 +17,8 @@ function inter() {
     });
   });
   $.getJSON( "res/graph.json", function( data ) {
-	graph( d3, data )
+	  console.log(data);
+	  graph( d3, data );
   });
 };
 
