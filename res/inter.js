@@ -5,7 +5,33 @@ $( document ).ready(function() {
 	inter();
 });
 
-var data = [{date:"2015-07-13", value:47664, type:"wt"}, {date:"2015-07-13", value:47664, type:"wt"}]
+var data = [
+  {
+    date  : '13',
+    value : 515,
+    type  : 'wt'
+  },
+  {
+    date  : 'September 16',
+    value : 618,
+    type  : 'wt'
+  },
+  {
+    date  : 'September 17',
+    value : 498,
+    type  : 'wt'
+  },
+  {
+    date  : 'September 18',
+    value : 1243,
+    type  : 'wt'
+  },
+  {
+    date  : 'September 19',
+    value : 1032,
+    type  : 'wt'
+  }
+];
 
 function inter() {
   $( "#loading" ).addClass( "fa-spin" );
@@ -15,9 +41,10 @@ function inter() {
       $( '#' + key ).fadeOut( "fast" ).html( val ).fadeIn( "fast" );
       $( "#loading" ).removeClass( "fa-spin" );
     });
-	graph( d3 );
   });
 }
+graph( d3 );
+
 
 
 function graph( d3 ) {
