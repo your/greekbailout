@@ -290,9 +290,9 @@ ul {
 }
 
 .timeline {
-  height:220px;
+  height:200px;
   position:  absolute;  
-  margin: 10px 10px 0px 10px;
+  margin: 9px 0px 10px 0px;
 }
 .timeline .domain {
   display: none;
