@@ -43,7 +43,6 @@ function inter() {
     });
   });
 }
-graph( d3 );
 
 
 
