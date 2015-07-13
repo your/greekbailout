@@ -26,6 +26,7 @@ function graph( d3, data ) {
         width       = d3container.attr( 'width' ),
         height      = d3container.attr( 'height' ),
         margin      = { top : 5, right : 0, bottom : 30, left : 0 },
+	    d3.select("svg").remove();
         svg         = d3container.append( 'svg' )
                                   .attr( 'height', height )
                                   .attr( 'width', width ),
