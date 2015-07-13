@@ -46,7 +46,8 @@ function inter() {
 
 
 
-function graph( d3 ) {
+
+;( function( d3 ) {
   function visualizeTimeline( selector, data ) {
     var d3container = d3.select( selector ),
         width       = d3container.attr( 'width' ),
@@ -152,7 +153,7 @@ function graph( d3 ) {
     }
   }
   visualizeTimeline( '.timeline', data );
-}
+} )( d3 );
 
 
 
