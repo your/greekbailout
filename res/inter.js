@@ -5,7 +5,7 @@ $( document ).ready(function() {
 	inter();
 });
 
-var data = []
+var data = [{"date":"2015-07-13", "value":47664, "type":"wt"}, {"date":"2015-07-13", "value":47664, "type":"wt"}]
 
 function inter() {
   $( "#loading" ).addClass( "fa-spin" );
@@ -19,7 +19,6 @@ function inter() {
   });
 }
 
-data = [{"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}, {"date"=>"2015-07-13", "value"=>47664, "type"=>"wt"}];
 
 function graph( d3, data ) {
   function visualizeTimeline( selector, data ) {
