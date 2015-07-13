@@ -288,3 +288,33 @@ ul {
   font-weight: 200;
   text-align: center;
 }
+
+.timeline {
+  width:480px;
+  height:220px;
+  position:  absolute;  
+  margin: 10px 10px 0px 10px;
+}
+.timeline .domain {
+  display: none;
+}
+.timeline .tick {
+  fill: #dbdcdf;
+  font-size: 0.8em;
+}
+
+.timeline_area {
+  stroke-width: 0px;
+}
+.timeline_area.red {
+  fill: rgba(241, 48, 26, 0.7);
+  stroke: #ff5440;
+}
+.timeline_area.purple {
+  fill: rgba(119, 126, 195, 0.7);
+  stroke: #a8aff1;
+}
+.timeline_area.cyan {
+  fill: rgba(0, 168, 201, 0.7);
+  stroke: #62d6eb;
+}
