@@ -21,7 +21,7 @@ function inter() {
 	  console.log(data_g);
 	  graph( d3, data_g );
   });
-};
+}
 
 function graph( d3, data ) {
   function visualizeTimeline( selector, data ) {
