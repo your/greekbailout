@@ -16,9 +16,10 @@ function inter() {
       $( "#loading" ).removeClass( "fa-spin" );
     });
   });
-  $.getJSON( "res/graph.json", function( data ) {
-	  console.log(data);
-	  graph( d3, data );
+  $.getJSON( "res/graph.json", function( data_g ) {
+	  $.each( data_g, function( key, val ) {
+	  console.log(data_g);
+	  graph( d3, data_g );
   });
 };
 
