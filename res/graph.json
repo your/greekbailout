@@ -18,5 +18,25 @@
     "date": "\"date\":",
     "value": 0,
     "type": "wt"
+  },
+  {
+    "date": "{",
+    "value": 0,
+    "type": "wt"
+  },
+  {
+    "date": "\"speed\":",
+    "value": 0,
+    "type": "wt"
+  },
+  {
+    "date": "\"left\":",
+    "value": 0,
+    "type": "wt"
+  },
+  {
+    "date": "\"date\":",
+    "value": 0,
+    "type": "wt"
   }
 ]
