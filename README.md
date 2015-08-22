@@ -1,5 +1,7 @@
 # #greekbailout Indiegogo's Campaign Tracker
 
+**Live Updates @ https://your.github.io/greekbailout**
+
 ## This is over, thank you all.
 
 ###Snapshot of the tracker:
